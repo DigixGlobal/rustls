@@ -14,7 +14,7 @@ time = "0.1.35"
 base64 = "~0.2.0"
 log = { version = "0.3.6", optional = true }
 ring = { git = "https://github.com/briansmith/ring", branch = "master", features = ["rsa_signing"] }
-webpki = "0.3.0"
+webpki = { git = "https://github.com/DigixGlobal/webpki", branch = "update-nix-for-freebsd" }
 
 [features]
 default = ["logging"]
